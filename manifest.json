@@ -1,0 +1,25 @@
+{
+    "required_api_version": "^2.0.0",
+    "name": "Nuki",
+    "description": "Open your Nuki lockers from ULauncher",
+    "developer_name": "Luis H. Moreno",
+    "icon": "images/icon.png",
+    "options": {
+        "query_debounce": 0.5
+    },
+    "preferences": [
+        {
+            "id": "kw",
+            "type": "keyword",
+            "name": "Nuki",
+            "default_value": "nk"
+        },
+        {
+            "id": "access_token",
+            "type": "input",
+            "name": "Personal Access Token",
+            "description": "The access token required to authenticate on the Nuki API",
+            "default_value": ""
+        }
+    ]
+}
